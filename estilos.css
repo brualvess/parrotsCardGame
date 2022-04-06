@@ -1,3 +1,40 @@
-body{
-    background-color: red;
+body {
+  background-color: #eef9bf;
+}
+.titulo {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 66px;
+  color: #75b79e;
+  text-align: center;
+  margin-top: 20px;
+}
+.conteudoLayout {
+  display: grid;
+  grid-template-rows: 100px 100px;
+  grid-auto-flow: column;
+  grid-gap: 100px;
+  grid-auto-columns: 100px;
+  justify-content: center;
+  margin-top: 20px;
+ 
+}
+.cartasLayout {
+  width: 117px;
+  height: 146px;
+  background: #a7e9af;
+  border: 1px solid #99cea8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  
+  
+}
+.papagaio {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+
 }
