@@ -14,7 +14,7 @@ body {
   display: grid;
   grid-template-rows: 100px 100px;
   grid-auto-flow: column;
-  grid-gap: 100px;
+  grid-gap: 75px;
   grid-auto-columns: 100px;
   justify-content: center;
   margin-top: 20px;
@@ -30,11 +30,19 @@ body {
   
   
 }
-.papagaio {
+.papagaio{
   width: 100px;
   height: 100px;
   display: block;
   margin: auto;
   margin-top: 15px;
+  display: none;
 
+}
+.gif{
+  width: 75px;
+  height: 75px;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
 }
