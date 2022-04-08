@@ -31,10 +31,10 @@ function distribuirCartas(numeroDeCartas) {
   const conteudo = document.querySelector(".conteudoLayout");
   for (let indice = 0; indice < selecionadas.length; indice++) {
     conteudo.innerHTML += `
-    <div class="cartasLayout">
+    <div class="cartasLayout" onclick="virarCarta(this)">
     <div class="cartas">
       <img class="gif" src="imagens/${selecionadas[indice]}.gif" alt="" />
-      <img class="papagaio" src="imagens/front.png" alt="" />
+      <img class="papagaio"  src="imagens/front.png" alt="" />
     </div>
   </div>
     `;
@@ -42,4 +42,9 @@ function distribuirCartas(numeroDeCartas) {
 }
 function comparador() {
   return Math.random() - 0.5;
+}
+
+function virarCarta(elemento){
+  elemento.classList.add("cliquei")
+  
 }
