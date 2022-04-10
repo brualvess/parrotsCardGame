@@ -53,3 +53,9 @@ body {
 .cliquei > .cartas > .papagaio{
   display: none;
 }
+.acertou > .cartas > .gif{
+  display: inline;
+}
+.acertou > .cartas > .papagaio{
+  display: none;
+}
