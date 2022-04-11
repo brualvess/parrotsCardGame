@@ -53,7 +53,7 @@ function virarCarta(elemento) {
   let todasCartas = document.querySelectorAll(".cartasLayout");
   if (todasCartas.length == acertou.length) {
     let fraseFinal = `Você ganhou em ${quantidadeDeClick} jogadas!`;
-    alert(fraseFinal);
+   setTimeout( alert,500,fraseFinal);
   }
 }
 
