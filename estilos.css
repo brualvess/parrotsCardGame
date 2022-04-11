@@ -18,7 +18,6 @@ body {
   grid-auto-columns: 100px;
   justify-content: center;
   margin-top: 20px;
- 
 }
 .cartasLayout {
   width: 117px;
@@ -27,19 +26,15 @@ body {
   border: 1px solid #99cea8;
   box-sizing: border-box;
   border-radius: 5px;
-  
-  
 }
-.papagaio{
+.papagaio {
   width: 100px;
   height: 100px;
   display: block;
   margin: auto;
   margin-top: 15px;
- 
-
 }
-.gif{
+.gif {
   width: 75px;
   height: 75px;
   display: block;
@@ -47,15 +42,25 @@ body {
   margin-top: 30px;
   display: none;
 }
-.cliquei > .cartas > .gif{
+.cliquei > .cartas > .gif {
   display: inline;
 }
-.cliquei > .cartas > .papagaio{
+.cliquei > .cartas > .papagaio {
   display: none;
 }
-.acertou > .cartas > .gif{
+.acertou > .cartas > .gif {
   display: inline;
 }
-.acertou > .cartas > .papagaio{
+.acertou > .cartas > .papagaio {
   display: none;
+}
+
+@media(max-width:480px){
+.conteudoLayout{
+grid-auto-flow: unset;
+grid-template-rows:none;
+grid-auto-columns: unset;
+grid-gap: 40px;
+}
+
 }
